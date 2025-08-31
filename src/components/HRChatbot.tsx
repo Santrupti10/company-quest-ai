@@ -19,7 +19,7 @@ export function HRChatbot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "welcome",
-      text: "Hello! I'm your HR Assistant. I can help you with:\n\n• Application status checks\n• Company information\n• Job application process\n• Interview process\n• Benefits and policies\n• Career growth opportunities\n\nHow can I assist you today?",
+      text: "Hi, I'm Hirely, your helping hand through the hiring process. Come ask me anything regarding the entire hiring process. Click here!",
       isUser: false,
       timestamp: new Date(),
     },
