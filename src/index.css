@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 240 10% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,14 +17,15 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 210 98% 40%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 195 100% 50%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
 
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
@@ -32,11 +33,23 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 210 98% 40%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Chat-specific colors */
+    --chat-background: linear-gradient(135deg, 210 98% 40%, 195 100% 50%);
+    --chat-user-bg: 210 98% 40%;
+    --chat-bot-bg: 0 0% 100%;
+    --chat-user-text: 0 0% 100%;
+    --chat-bot-text: 222.2 84% 4.9%;
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-elegant: 0 4px 20px -2px hsl(210 98% 40% / 0.15);
+    --shadow-message: 0 2px 8px -2px hsl(210 98% 40% / 0.1);
 
     --sidebar-background: 0 0% 98%;
 
